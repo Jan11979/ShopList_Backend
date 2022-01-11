@@ -9,7 +9,7 @@ public class ControllerShopList {
     @GetMapping(path = "/miau")
     public String getMiau() {
         System.out.println("getMiau Called");
-        return "Hallo2 Miau2";
+        return "Miau2000";
     }
 }
 
